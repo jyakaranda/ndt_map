@@ -1,0 +1,16 @@
+use_odom: true
+use_imu: true
+keyframe_dist: 0.3
+min_scan_range: 1
+max_scan_range: 70
+
+step_size: 0.15
+max_iters: 30
+ndt_res: 1.0
+voxel_leaf_size: 1.0
+
+loop_closure_enabled: true
+history_search_radius: 15.
+history_search_num: 25
+history_fitness_score: 0.3
+ds_history_size: 0.5
